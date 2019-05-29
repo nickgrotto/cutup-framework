@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #caa97c;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="6" height="6"/>
+  <rect class="cls-2" x="3" y="3" width="1" height="1"/>
+  <rect class="cls-2" width="1" height="1"/>
+</svg>

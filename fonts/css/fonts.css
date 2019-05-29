@@ -1,0 +1,173 @@
+/*
+font-family:'Ridley Grotesk W05 Regular';
+font-family:'Ridley Grotesk W05 Italic';
+font-family:'Ridley Grotesk W05 Bold';
+font-family:'Ridley Grotesk W05 Bold Italic';
+font-family:'Strato W01 Book';
+font-family:'Strato W01 Book Italic';
+font-family:'Strato W01 Bold';
+font-family:'Strato W01 Bold Italic';
+*/
+
+body {
+	/*font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;*/
+}
+
+p,
+table tr th,
+table tr td {
+	color:#7f8b9b;
+	font-size:19px;
+	line-height:1.42;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.01em;
+}
+
+ul,
+ol,
+dl {
+	color:#7f8b9b;
+	font-size:19px;
+	line-height:1.42;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.01em;
+}
+
+a:link,
+a:visited,
+a:active {
+	color:#0094ad;
+}
+a:hover {
+	color:##00473c;
+	text-decoration:underline;
+}
+
+h1 {
+	color:#00473c;
+	font-size:19px;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-top:60px;
+	margin-bottom:20px;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.2em;
+}
+h2 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:81px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.03em;
+}
+h3 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:63px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.03em;
+}
+h4 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:36px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.03em;
+}
+h5 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:27px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.03em;
+}
+h6 {
+	margin-bottom:15px;
+	color:#7f8b9b;
+	font-size:15px;
+	line-height: 1;
+	text-transform: uppercase;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.05em;
+}
+::selection {
+  color:#fff;
+  background:#00473c;
+}
+
+@media screen and (max-width:640px) {
+	p,
+table tr th,
+table tr td {
+	color:#7f8b9b;
+	font-size:17px;
+	line-height:1.42;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.005em;
+}
+ul,
+ol,
+dl {
+	color:#7f8b9b;
+	font-size:17px;
+	line-height:1.42;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.01em;
+}
+	h1 {
+	color:#00473c;
+	font-size:17px;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-top:60px;
+	margin-bottom:20px;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.1em;
+}
+	h2 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:45px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.015em;
+}
+	h3 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:36px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.015em;
+}
+	h4 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:30px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.015em;
+}
+	h5 {
+	margin-bottom:15px;
+	color:#001737;
+	font-size:24px;
+	line-height: 1;
+	font-family: 'Strato W01 Book', sans-serif;
+	letter-spacing: 0.015em;
+}
+	h6 {
+	margin-bottom:15px;
+	color:#7f8b9b;
+	font-size:15px;
+	line-height: 1;
+	text-transform: uppercase;
+	font-family: 'Ridley Grotesk W05 Regular', sans-serif;
+	letter-spacing: 0.05em;
+}
